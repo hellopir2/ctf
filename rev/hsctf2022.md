@@ -14,4 +14,4 @@ It appears to read `flag{imagine_solving_this_manually_`. Well shit, guess what 
 
 Unlucky. It appears that we are given a bit of ambiguity due to our lack of assembly reading ability. Submitting both flags gives us the right answer: `flag{imagine_solving_this_challenge_manually_8b626e31b1cb}`
 
-That was very fun ;)
+That was very [fun](../fun.txt) ;)
