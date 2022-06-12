@@ -49,3 +49,31 @@ Which outputs the flag: `flag{c3ntr4l_l1m1t_th30r3m_15431008597}`
 
 # Baby RSA
 Again, we're given an output, and the program that prints the outputs. This time, it appears that we're given the public key, the ciphertext (encrypted with RSA), and half of a randomized list of numbers in the form of x^p (mod n).
+
+Source:
+```python
+from Crypto.Util.number import *
+import random
+import itertools
+flag = open('flag.txt','rb').read()
+pt = bytes_to_long(flag)
+p,q = getPrime(512),getPrime(512)
+n = p*q
+a = random.randint(0,2**512)
+b = random.randint(0,a)
+c = random.randint(0,b)
+d = random.randint(0,c)
+e = random.randint(0,d)
+f = 0x10001
+g = [[-a,0,a],[-b,0,b],[-c,0,c],[-d,0,d],[-e,0,e]]
+h = list(pow(sum(_),p,n) for _ in itertools.product(*g))
+random.shuffle(h)
+print(h[0:len(h)//2])
+print(n)
+print(pow(pt,f,n))
+```
+Clearly we need to do something with the list of numbers we're given, as the primes are too big to factor. Notice how the numbers are in the form of x^p (mod n), and from Fermat's Little Theorem, we have that this is equivalent to x (mod p). Since it is mod p*q, it is likely that the numbers are greater than p, given that p is a 512 bit prime and all of the numbers we're given are higher than that. Let's look at how it generates x: It adds 1 number from each list of `[-a,0,a],[-b,0,b],[-c,0,c],[-d,0,d],[-e,0,e]`, and it doesn't really matter what a, b, c, d, e are. Given this, we want to get `p` by adding a few of the values we're given, and then taking the gcd of that with `n` (because one of its factors are p), and seeing whether that's greater than 0 or not, and hoping that the gcd isn't just `n`. Let's write some code to add 2 of the given values.
+
+*insert code here*
+
+Well this didn't work because all the outputs are just n. Clearly we need to scale up the amount of numbers we're adding. Trying this with 3 numbers, we find that `p = 8232743274837446463598254637051161045911091397541451296000991485083369905136689783513169363218917147263240294508530778763390359497242952090254975434412391`. Plugging our numbers into dcode.fr's RSA decoder, we find that the flag is `flag{sometimes_you_just_want_to_make_long_flags_because_you_want_to_and_also_because_you_dont_know_what_else_you_can_put_here}`
