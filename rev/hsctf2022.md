@@ -1,7 +1,7 @@
 # eunectes murinus
 
-For this challenge, we're given a .pyc file. Doing some googling, we see that we can decompile it back into a .py file using pycdc. Doing this, we're presented with invalid python code: 
-[invalid, decompiled python](../something.disasm)
+For this challenge, we're given a [.pyc file](eunectes-murinus.pyc). Doing some googling, we see that we can decompile it back into a .py file using pycdc. Doing this, we're presented with invalid python code: 
+[invalid, decompiled python](something.disasm)
 
 Notice how each equation doesn't have the first variable defined, which makes it very annoying. I can't read assembly, so the only choice we have left is to bash it manually given the flag format.
 
@@ -14,4 +14,4 @@ It appears to read `flag{imagine_solving_this_manually_`. Well shit, guess what 
 
 Unlucky. It appears that we are given a bit of ambiguity due to our lack of assembly reading ability. Submitting both flags gives us the right answer: `flag{imagine_solving_this_challenge_manually_8b626e31b1cb}`
 
-That was very [fun](../fun.txt) ;)
+That was very [fun](fun.txt) ;)
