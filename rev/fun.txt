@@ -1,0 +1,464 @@
+0 - 102 done
+1 - 108 done
+2 - 97 done
+3 - 103 done
+4 - 123 done
+5 (+5, 95*110) (90, 105) 105 done
+6 (+3, 98*112) 109 done
+7 (-7, 90*110, 99*100) (97, 117, 106, 107) 97 done
+8 103?
+9 (+7, 109*112) (102, 105) 105 done
+10 110?
+11 (+4, 102*105, 90*119, 85*126) (98, 101, 86, 115, 81, 122) 101 done
+12 (+8, 103*110) (95, 102) 95
+13 (+4, 115*119) (111, 115) 115 done
+14 (+3, 5586) 57*98, 49*114 -> (54, 95, 111) 111 done
+15
+16 (+7, 109*125) (102, 118)
+17 (+5, 104*110)(99, 105)
+18 (+2, 95*112) 110
+19 (-5, 98*115) (103, 120) 103
+20
+21 (-6, 110*118) 116
+22 (+3, 97*107) 104
+23
+24 (+4, 101*119) (-6, 105*109) (111, 115) 115
+25 (-1, 94*108) (95, 109) 95
+26 (+4, 103*116) (99, 112)
+27 (-7, 95*97) (102, 104) 104
+28
+29
+30 (-4, 95*104) (-4, 101*104) 108
+31
+32 (+2, 109*112) (+4, 49*114) 110
+33 (-4, 98*99) (102, 103)
+34 (-8, 93*95) (101, 103) 101
+35 (-2, 93*108) (+3, 4802) 95
+36 (+4, 101*113) (97, 109) 109
+37 (+9, 53*102, 51*106) 97
+38
+39
+40
+41
+42 (-1, 107*108) (+5, 98*113) 108
+43 (-4, 95*117) (99, 121) 121
+44 (-6, 89*108) (95, 114) 95
+45 (-8, 6000) (-7, 49*103) (56, 110) 56
+46 (-4, 94*97) (98, 101) 98
+47 (-9, 4365) 45*97, 54 (-2, 5668)
+48 (-5, 4410) (-8, 4536) 50
+49 (-6) 102, 54
+50 (-6, 95*108) (+3, 104*115) (101, 112) 101
+51 (+2, 53*99) (51, 97) 51
+52 (-3, 4508) 49*92, 46*98 (101, 49, 52, 95?)
+53 (+6, 102*104) 98
+54 (-3, 4370) (49, 98) 49
+55 (+5, 104*115) 99
+56 (+7, 95*110) (-8, 5040) 98
+57 - 125 done
+
+# Source Generated with Decompyle++
+# File: eunectes-murinus.pyc (Python 3.9)
+
+flag{imagine_solving_this_challenge_manually_8b62fe31b1}
+def fun():
+    (f, l, a, g, {, i, m, a, g, i, n, e, _, s, o, x15, x16, x17, n, g, x20, t, h, x23, s, _, x26, h, x28, x29, l, x31, n, x33, e, _, m, a, x38, x39, x40, x41, l, y, _, 8, b, 6, 2, f/6, e, 3, 1, b, 1, c, b, }) = input('flag?\n').encode()
+    a = x9
+    b = x24
+    # if c * (b + 4) != 12,019:
+        # return print('Failed')
+    d = x13
+    c = x35
+    # if e * (c + 3) != 4,802:
+        # return print('Failed')
+    f = x45
+    e = x19
+    if c * 2 * (f - 8) * (e + 1) != 1248000:
+        return print('Failed')
+    a = x35
+    e = x11
+    # if g * (a - 2) != 10,044:
+        # return print('Failed')
+    a = x27
+    c = 103
+    # if g * (a - 7) != 9,215:
+        # return print('Failed')
+    a = x41
+    c = x31
+    if d * 9 * (a - 5) * (c + 6) != 4860261:
+        return print('Failed')
+    f = x24
+    h = x50
+    if a * 3 * (f - 6) * (h + 4) != 3261825:
+        return print('Failed')
+    i = x19
+    a = x8
+    if h * 7 * (i - 4) * (a + 9) != 8149680:
+        return print('Failed')
+    e = x50
+    j = x56
+    if i * 7 * (e - 4) * (j + 1) != 7864857:
+        return print('Failed')
+    b = x56
+    if h * (b - 8) != 5040:
+        return print('Failed')
+    h = x47
+    c = x23
+    if d * (h - 9) != 4,365:
+        return print('Failed')
+    j = x43
+    h = x5
+    if b * (h + 5) != 10,450:
+        return print('Failed')
+    f = x52
+    a = x45
+    if j * 6 * (f - 1) * (a + 8) != 1032192:
+        return print('Failed')
+    d = x45
+    f = x44
+    if i * 8 * (d - 9) * (f + 4) != 3647952:
+        return print('Failed')
+    f = x32
+    a = x44
+    if h * 5 * (f - 7) * (a + 1) != 5339520:
+        return print('Failed')
+    c = x33
+    f = x9
+    if a * (c - 4) != 9,702:
+        return print('Failed')
+    d = x42
+    a = x4
+    if f * (d - 1) != 11,556:
+        return print('Failed')
+    a = x54
+    i = 108
+    if e * (a - 3) != 4,370:
+        return print('Failed')
+    f = x24
+    j = x45
+    if c * 9 * (f - 3) * (j + 9) != 6748560:
+        return print('Failed')
+    c = x43
+    d = x8
+    if j * 9 * (c - 9) * (d + 7) != 12196800:
+        return print('Failed')
+    g = x35
+    c = x47
+    if b * 6 * (g - 7) * (c + 7) != 3124176:
+        return print('Failed')
+    g = x3
+    a = x18
+    if h * (a + 2) != 10,640:
+        return print('Failed')
+    d = x30
+    e = 102
+    if c * (d - 4) != 10504:
+        return print('Failed')
+    h = x21
+    g = x25
+    if j * (h - 6) != 12,980:
+        return print('Failed')
+    b = x39
+    g = x46
+    if e * 9 * (b - 6) * (g + 8) != 11118870:
+        return print('Failed')
+    d = x46
+    f = x6
+    if h * (d - 4) != 9,118:
+        return print('Failed')
+    b = x45
+    i = x19
+    if f * 3 * (b - 9) * (i + 6) != 1552269:
+        return print('Failed')
+    h = x22
+    j = x31
+    if c * 7 * (h - 6) * (j + 3) != 3495856:
+        return print('Failed')
+    e = x32
+    f = x30
+    if i * 8 * (e - 3) * (f + 7) != 9647120:
+        return print('Failed')
+    c = x40
+    a = x32
+    if h * 6 * (c - 7) * (a + 3) != 5918940:
+        return print('Failed')
+    g = x50
+    if h * (g + 3) != 11960:
+        return print('Failed')
+    d = x25
+    c = x17
+    if g * 3 * (d - 3) * (c + 8) != 3025236:
+        return print('Failed')
+    h = x37
+    g = x51
+    if a * (g + 2) != 5,247:
+        return print('Failed')
+    e = x25
+    b = x4
+    if j * (e - 1) != 10,152:
+        return print('Failed')
+    b = x8
+    h = x20
+    if i * 7 * (b - 1) * (h + 1) != 7402752:
+        return print('Failed')
+    h = x38
+    b = x35
+    if a * 6 * (h - 5) * (b + 2) != 3299940:
+        return print('Failed')
+    e = x34
+    a = x19
+    if c != 118:
+        return print('Failed')
+    g = x10
+    b = x44
+    if a * (g - 2) != 101*108:
+        return print('Failed')
+    f = x15
+    j = x40
+    if c * 7 * (f - 2) * (j + 1) != 7126168:
+        return print('Failed')
+    b = x47
+    if f * (b - 2) != 5668:
+        return print('Failed')
+    f = x24
+    e = x42
+    if b * 2 * (f - 7) * (e + 8) != 2931552:
+        return print('Failed')
+    b = x24
+    d = 102
+    if j * (b - 6) != 11,445:
+        return print('Failed')
+    e = x39
+    j = x39
+    if b * 6 * (e - 5) * (j + 3) != 9515520:
+        return print('Failed')
+    f = x13
+    b = x53
+    if c * (b + 6) != 10,608:
+        return print('Failed')
+    c = x15
+    b = x24
+    if f * 4 * (c - 3) * (b + 2) != 4766580:
+        return print('Failed')
+    g = x42
+    j = x32
+    if f * 4 * (g - 4) * (j + 2) != 4752384:
+        return print('Failed')
+    c = x21
+    i = x12
+    if h * (i + 8) != 11,330:
+        return print('Failed')
+    f = x6
+    e = x26
+    if i * (e + 4) != 11,948:
+        return print('Failed')
+    e = x18
+    b = x30
+    if h * 9 * (e - 7) * (b + 7) != 11513340:
+        return print('Failed')
+    j = x43
+    f = x13
+    if b * (j - 4) != 11,115:
+        return print('Failed')
+    j = x26
+    i = x55
+    if f * (i + 5) != 11,960:
+        return print('Failed')
+    e = x20
+    h = x55
+    if i * 9 * (e - 7) * (h + 8) != 9152352:
+        return print('Failed')
+    f = x26
+    g = x35
+    if h * 6 * (f - 2) * (g + 5) != 5703600:
+        return print('Failed')
+    h = x27
+    f = x37
+    if i * (f + 9) != 5,406:
+        return print('Failed')
+    j = 102
+    c = x42
+    if f * (c + 5) != 11074:
+        return print('Failed')
+    i = x5
+    h = x56
+    if d * (h + 7) != 11,550:
+        return print('Failed')
+    j = x2
+    a = x32
+    if d * (a + 4) != 5,586:
+        return print('Failed')
+    g = x6
+    i = x13
+    if j * (i + 4) != 13,685:
+        return print('Failed')
+    h = x46
+    i = x36
+    if f * 6 * (h - 6) * (i + 7) != 6723360:
+        return print('Failed')
+    i = x14
+    f = x32
+    if h * (f + 2) != 12,208:
+        return print('Failed')
+    g = x9
+    b = x42
+    if c * (b + 5) != 11,413:
+        return print('Failed')
+    a = x54
+    j = x16
+    if i * 1 * (a - 8) * (j + 3) != 267894:
+        return print('Failed')
+    j = x56
+    h = x43
+    if d * 5 * (j - 7) * (h + 5) != 5790330:
+        return print('Failed')
+    j = x49
+    a = x16
+    if e * (j - 6) != 5,184:
+        return print('Failed')
+    h = 102
+    c = x22
+    if d * (c + 3) != 10,379:
+        return print('Failed')
+    g = x14
+    if a * (g + 3) != 5586:
+        return print('Failed')
+    d = x28
+    a = x37
+    if j * 2 * (d - 4) * (a + 6) != 2394750:
+        return print('Failed')
+    d = x51
+    h = 103
+    if c * (d - 2) != 5,292:
+        return print('Failed')
+    a = x11
+    e = x17
+    if h * (e + 5) != 11,440:
+        return print('Failed')
+    j = x28
+    b = x56
+    if d * 7 * (j - 6) * (b + 7) != 7290465:
+        return print('Failed')
+    f = x9
+    d = x30
+    if b * (d + 1) != 13625:
+        return print('Failed')
+    g = x28
+    i = x50
+    if a * 7 * (g - 9) * (i + 9) != 7114800:
+        return print('Failed')
+    j = x24
+    c = x29
+    if a * 8 * (j - 9) * (c + 7) != 10142080:
+        return print('Failed')
+    h = x21
+    a = x36
+    if e * (a + 4) != 11,413:
+        return print('Failed')
+    d = x48
+    i = x5
+    if f * (d - 8) != 4,536:
+        return print('Failed')
+    c = x11
+    j = x9
+    if f * (j + 7) != 12,208:
+        return print('Failed')
+    f = x14
+    a = x11
+    if g * (a + 4) != 10,710:
+        return print('Failed')
+    b = x9
+    a = x22
+    if i * (a + 7) != 13,098:
+        return print('Failed')
+    h = x28
+    f = x19
+    if e * 5 * (h - 6) * (f + 9) != 2751840:
+        return print('Failed')
+    h = x27
+    c = x16
+    if b * 1 * (h - 1) * (c + 2) != 1211280:
+        return print('Failed')
+    d = x34
+    e = x43
+    if b != 108:
+        return print('Failed')
+    d = x45
+    i = x56
+    if c * 5 * (d - 5) * (i + 7) != 2784600:
+        return print('Failed')
+    e = x52
+    g = x8
+    if f * (e - 3) != 4,508:
+        return print('Failed')
+    c = x45
+    e = x5
+    if b * (c - 7) != 5,047:
+        return print('Failed')
+    g = x8
+    j = x44
+    if e != 95:
+        return print('Failed')
+    j = 108
+    g = x6
+    if e * (g + 3) != 10,976:
+        return print('Failed')
+    b = x2
+    c = x16
+    if i * (c + 7) != 13,625:
+        return print('Failed')
+    i = x42
+    g = x41
+    if h * 8 * (i - 4) * (g + 8) != 11388416:
+        return print('Failed')
+    j = x50
+    a = x11
+    if g * (j - 6) != 10,260:
+        return print('Failed')
+    a = x43
+    f = x2
+    if g * (a - 1) != 12,360:
+        return print('Failed')
+    a = x25
+    j = x54
+    if h * 3 * (a - 3) * (j + 2) != 1435752:
+        return print('Failed')
+    d = x34
+    h = x48
+    if e * (d - 8) != 8,835:
+        return print('Failed')
+    i = x19
+    f = x7
+    if d * (i - 5) != 11,270:
+        return print('Failed')
+    a = x15
+    j = x52
+    if d * 2 * (a - 8) * (j + 1) != 500000:
+        return print('Failed')
+    e = x30
+    h = x4
+    if c * (e - 4) != 9880:
+        return print('Failed')
+    a = x44
+    i = x14
+    if g * (a - 6) != 9,612:
+        return print('Failed')
+    b = x7
+    f = x53
+    if g * (b - 7) != 9,900:
+        return print('Failed')
+    i = x43
+    h = x19
+    if g * 9 * (i - 9) * (h + 3) != 10577952:
+        return print('Failed')
+    g = x48
+    i = x10
+    if h * (g - 5) != 4,410:
+        return print('Failed')
+    a = x32
+    c = x18
+    if h * 8 * (a - 3) * (c + 4) != 9270480:
+        return print('Failed')
+    return x32('Success')
+
+fun()
