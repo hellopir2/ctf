@@ -1,9 +1,9 @@
 # Passing Notes
-1. bash 64 possibilities using sagemath and known plaintext
-2. win
+<br>1. bash 64 possibilities using sagemath and known plaintext
+<br>2. win
 <br>
 here's the code:<br>
-```
+```py
 from base64 import b64encode
 from random import choice
 from sage.all import GF
@@ -44,13 +44,13 @@ print("V4m\\GDMHaDM3WKy6tACXaEuXumQgtJufGEyXTAtIuDm5GEHS")
 ```
 This outputs some base64, which decodes to `valentine{th15_is_4_s3cret_m355age}`.
 # Better Notes
-1. bash possibilities and filter through them using python
-2. guess plaintext
-3. bash more possiblities and filter through them using python
-4. win
+bash possibilities and filter through them using python
+<br>1. guess plaintext
+<br>2. bash more possiblities and filter through them using python
+<br>3. win
 <br>
 see bash code below
-```
+```py
 from base64 import b64encode
 import string, binascii
 charset = string.ascii_lowercase + string.digits + "_@"
