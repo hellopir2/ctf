@@ -1,4 +1,4 @@
-### SRA
+# SRA
 In this challenge, we are given some code:
 ```py
 from Crypto.Util.number import getPrime, inverse, bytes_to_long
@@ -254,7 +254,7 @@ print("%s seconds" % round((time.time() - start_time), 1))
 
 I don't know how to optimize this further so I'll just leave it here.
 
-### PowerAnalysis: Part 1
+# PowerAnalysis: Part 1
 
 I read the challenge and was like, "surely there are some implementations of an AES powertrace side channel attack online". And yeah. There are. After digging around a bit, I found this implementation of CPA online: https://github.com/nvietsang/dpa-on-aes/blob/master/main_cpa.py
 
