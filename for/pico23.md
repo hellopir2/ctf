@@ -28,7 +28,7 @@ fn main() -> anyhow::Result<()> {
 (Yeah the txt file I stored the bytes in was called potato.txt)<br>
 Anyways opening the zip file and ctrl+f for "picoCTF" yielded the flag: `picoCTF{w0rd_d4wg_y0u_f0und_5h3113ys_m4573rp13c3_e4f8c8f0}`
 
-### UnforgottenBits
+# UnforgottenBits
 This challenge is probably THE most guessy forensics challenge I have completed. I will split the following writeup into two sections, detailing the two parts of the solution.
 
 ## Step 1. Steghide
